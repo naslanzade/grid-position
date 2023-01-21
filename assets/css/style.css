@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: coral;
-
+    
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(246, 238, 2)), to(#fc4c07)) fixed;
 }
 
 .row{
