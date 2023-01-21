@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: coral;
+
+}
+
+.row{
+
+    display: flex;
+    
+}
+
+.row .main {
+    height: 250px;
+    width: 550px;
+    border-radius: 15px;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.main .quarter {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(240, 71, 10);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    border-radius: 10px;
+
+}
+
+.main .text {
+    display: inline-block;
+    position: absolute;
+    left: 170px;
+    top: 45px;
+    justify-content: space-between;
+}
+
+.main .text h4 {
+    margin-top: 10px;
+}
+
+.main .text .text-1{
+    width: 300px;
+}
+
+.main .text .text-1 p {
+    margin-top: 10px;
+}
+
+.main .text button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    background:linear-gradient(yellow,red);
+    border-radius: 10px;
+
+}
+
+.main .text a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-side {
+    display: flex;
+}
+
+.left-side .circle {
+    position: absolute;
+    left: 340px;
+    top: 40px;
+    width: 10px;
+    height: 10px;
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+.left-side .line{
+    position: absolute;
+    left: 342px;
+    top: 60px;
+    width: 5px;
+    height: 30px;
+    background-color:orangered;
+    border-radius: 5px;
+}
+
+.left-side .circle-2{
+    position: absolute;
+    left: 340px;
+    top: 100px;
+    width: 10px;
+    height: 10px;
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1 {
+    width: 8.33%;
+
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+
+}
+
+.col-8 {
+    width: 66.66%;
+
+}
+
+.col-9 {
+    width: 75%;
+
+
+}
+
+.col-10 {
+    width: 83.33%;
+
+}
+
+.col-11 {
+    width: 91.66%;
+
+}
+
+.col-12 {
+    width: 100%;
+
+}
